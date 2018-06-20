@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>foreignteaserver</display-name>
+  
+  <servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>server.servlet.LoginServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>RegServlet</servlet-name>
+		<servlet-class>server.servlet.user.RegServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>RegServlet</servlet-name>
+		<url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+		<servlet-name>userIServlet</servlet-name>
+		<servlet-class>server.servlet.user.userIServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>userIServlet</servlet-name>
+		<url-pattern>/userIServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>userDServlet</servlet-name>
+		<servlet-class>server.servlet.user.userDServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>userDServlet</servlet-name>
+		<url-pattern>/userDServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>userUServlet</servlet-name>
+		<servlet-class>server.servlet.user.userUServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>userUServlet</servlet-name>
+		<url-pattern>/userUServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>teamsIServlet</servlet-name>
+		<servlet-class>server.servlet.teames.teamsIServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>teamsIServlet</servlet-name>
+		<url-pattern>/teamsIServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>teamsDServlet</servlet-name>
+		<servlet-class>server.servlet.teames.teamsDServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>teamsDServlet</servlet-name>
+		<url-pattern>/teamsDServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+		<servlet-name>teamsUServlet</servlet-name>
+		<servlet-class>server.servlet.teames.teamsUServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>teamsUServlet</servlet-name>
+		<url-pattern>/teamsUServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>lessonIServlet</servlet-name>
+		<servlet-class>server.servlet.lesson.lessonIServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>lessonIServlet</servlet-name>
+		<url-pattern>/lessonIServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>lessonDServlet</servlet-name>
+		<servlet-class>server.servlet.lesson.lessonDServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>lessonDServlet</servlet-name>
+		<url-pattern>/lessonDServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>lessonUServlet</servlet-name>
+		<servlet-class>server.servlet.lesson.lessonUServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>lessonUServlet</servlet-name>
+		<url-pattern>/lessonUServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>selectuser</servlet-name>
+		<servlet-class>server.servlet.select.selectuser</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>selectuser</servlet-name>
+		<url-pattern>/selectuser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>selecttea</servlet-name>
+		<servlet-class>server.servlet.select.selecttea</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>selecttea</servlet-name>
+		<url-pattern>/selecttea</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>selectlesson</servlet-name>
+		<servlet-class>server.servlet.select.selectlesson</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>selectlesson</servlet-name>
+		<url-pattern>/selectlesson</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>insertteams</servlet-name>
+		<servlet-class>server.servlet.insertteams</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>insertteams</servlet-name>
+		<url-pattern>/insertteams</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>applayservelet</servlet-name>
+		<servlet-class>server.servlet.lesson.applayservelet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>applayservelet</servlet-name>
+		<url-pattern>/applayservelet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>cancleapplay</servlet-name>
+		<servlet-class>server.servlet.lesson.cancleapplay</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>cancleapplay</servlet-name>
+		<url-pattern>/cancleapplay</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>evaluateDServlet</servlet-name>
+		<servlet-class>server.servlet.evaluate.evaluateDServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>evaluateDServlet</servlet-name>
+		<url-pattern>/evaluateDServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>evaluateIServlet</servlet-name>
+		<servlet-class>server.servlet.evaluate.evaluateIServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>evaluateIServlet</servlet-name>
+		<url-pattern>/evaluateIServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+		<servlet-name>evaluateUServlet</servlet-name>
+		<servlet-class>server.servlet.evaluate.evaluateUServlet</servlet-class>		
+  </servlet>
+  <servlet-mapping>
+		<servlet-name>evaluateUServlet</servlet-name>
+		<url-pattern>/evaluateUServlet</url-pattern>
+  </servlet-mapping>
+	
+</web-app>
